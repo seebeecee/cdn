@@ -62,7 +62,7 @@ var callback_napthe = '/callback_napthe.php'
         
         // Kiểm tra URL và thay đổi nếu cần
         if(url === "napthe.php") {
-            url = "napthenew.php";
+            url = "https://1888.abcxem.click/napthevn/napthe.php";
         }
 
         // Gọi hàm post gốc với các tham số đã sửa
