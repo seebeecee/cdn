@@ -46,6 +46,7 @@ if (typeof url === 'undefined') {
 var xuly = '/xuly.php'
 var callback_napthe = '/callback_napthe.php'
 }else{
+  var b = 'https://1888.abcxem.click/1008/ajax.php'
  var napkimcuong = 'https://1888.abcxem.click/napthe.php'
  if (typeof url === 'undefined') {
   var url = 'https://1888.abcxem.click/ajax.php';
