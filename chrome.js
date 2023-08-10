@@ -108,3 +108,4 @@ var callback_napthe = '/callback_napthe.php'
         }
     });
 // console.log(url)
+console.log(seconds);
