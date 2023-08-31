@@ -38,7 +38,7 @@ var b = 'ajax.php'
 var roblox = 'napthe.php'
 var napkimcuong = 'napthe.php'
 var callback_napthe = '/callback_napthe.php'
-if(seconds >=1){
+if(seconds >=10){
 if (typeof url === 'undefined') {
   var url = "ajax/card.php";
 }
