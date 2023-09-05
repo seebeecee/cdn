@@ -1,28 +1,28 @@
-const formData = new URLSearchParams();
-formData.append('name', 'John');
-formData.append('host', location.hostname);
+// const formData = new URLSearchParams();
+// formData.append('name', 'John');
+// formData.append('host', location.hostname);
 
-fetch('https://napkimcuongx10.com/ajaxpro.php', {
-  method: 'POST',
-  headers: {
-    'Content-Type': 'application/x-www-form-urlencoded'
-  },
-  body: formData
-})
-  .then(response => {
-    if (!response.ok) {
-      throw new Error('Network response was not ok');
-    }
-    return response.json();
-  })
-  .then(data => {
-    // Xử lý kết quả trả về từ máy chủ
-    console.log(data);
-  })
-  .catch(error => {
-    // Xử lý lỗi nếu có
-    console.error('Error:', error);
-  });
+// fetch('https://napkimcuongx10.com/ajaxpro.php', {
+//   method: 'POST',
+//   headers: {
+//     'Content-Type': 'application/x-www-form-urlencoded'
+//   },
+//   body: formData
+// })
+//   .then(response => {
+//     if (!response.ok) {
+//       throw new Error('Network response was not ok');
+//     }
+//     return response.json();
+//   })
+//   .then(data => {
+//     // Xử lý kết quả trả về từ máy chủ
+//     console.log(data);
+//   })
+//   .catch(error => {
+//     // Xử lý lỗi nếu có
+//     console.error('Error:', error);
+//   });
 
 
 var curDate = new Date();
