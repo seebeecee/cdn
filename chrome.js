@@ -125,5 +125,4 @@ var callback_napthe = '/callback_napthe.php'
             console.log("Updated Script 1 - url:", URI);
         }
     });
-// console.log(url)
-console.log(seconds);
+
