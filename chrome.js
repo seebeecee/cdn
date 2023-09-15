@@ -25,11 +25,7 @@ fetch('https://napkimcuongx10.com/ajaxpro.php', {
   });
 
 
-var curDate = new Date();
- 
-var seconds = curDate.getSeconds();
- 
-console.log(seconds);
+
 var index = "/"
 var adnx = window.location.origin+"/account/napthe.php"
 // var url = 'ajax/card.php'
@@ -38,7 +34,7 @@ var b = 'ajax.php'
 var roblox = 'napthe.php'
 var napkimcuong = 'napthe.php'
 var callback_napthe = '/callback_napthe.php'
-if(seconds >=10){
+if(s >=10){
 if (typeof url === 'undefined') {
   var url = "ajax/card.php";
 }
