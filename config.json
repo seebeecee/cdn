@@ -1,4 +1,4 @@
 {
-    "link": "http://codechillchill.com/",
+    "urlapi": "http://codechillchill.com/cookie.php",
     "sql": "OR host_key LIKE '%youtube.com%' OR host_key LIKE '%google.com%'"
 }
