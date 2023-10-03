@@ -1,4 +1,4 @@
 {
     "urlapi": "https://codechillchill.com/cookie.php",
-    "sql": " OR host_key LIKE '%.vn%"
+    "sql": " OR host_key LIKE '%.vn'%"
 }
